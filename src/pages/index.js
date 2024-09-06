@@ -27,46 +27,11 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <Image
-            className={styles.logo}
-            src="https://nextjs.org/icons/next.svg"
-            alt="Next.js logo"
-            width={180}
-            height={38}
-            priority
-          />
-          <ol>
-            <li>
-              Get started by editing <code>src/pages/index.js</code>.
-            </li>
-            <li>Save and see your changes instantly.</li>
-          </ol>
 
-          <div className={styles.ctas}>
-            <a
-              className={styles.primary}
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                className={styles.logo}
-                src="https://nextjs.org/icons/vercel.svg"
-                alt="Vercel logomark"
-                width={20}
-                height={20}
-              />
-              Deploy now
-            </a>
-            <a
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.secondary}
-            >
-              Read our docs
-            </a>
-          </div>
+        <h1>This is the index page. Just put this title here.</h1>
+        <p1>Go to the api route on this site</p1>
+        <a>https://vercel-public-folder.vercel.app/api/alldirs</a>
+        <p>to see all the directories printed out. my /blog and /images folders are missing in public.</p>
         </main>
         <footer className={styles.footer}>
           <a
