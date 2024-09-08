@@ -62,6 +62,15 @@ export default function Home() {
               width={16}
               height={16}
             />
+       
+            <Image
+              aria-hidden
+              src={random}
+              alt="Window icon"
+              width={16}
+              height={16}
+            />
+         
             Examples
           </a>
           <a
