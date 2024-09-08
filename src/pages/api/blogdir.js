@@ -6,7 +6,7 @@ export default function handler(req, res) {
     // const { filename } = req.query;
   
     // Define the path to the file in the public directory
-    const filePath = resolve(process.cwd(), 'public', "blog");
+    const filePath = resolve(process.cwd(), 'public', "blog", 'random.mdx');
   
     // Check if the file exists
     if (existsSync(filePath)) {
