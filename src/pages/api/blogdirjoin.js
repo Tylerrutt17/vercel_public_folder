@@ -1,5 +1,5 @@
 import { existsSync, promises as fsPromises } from 'fs';
-import { resolve } from 'path';
+import { resolve, join } from 'path';
 
 export default async function handler(req, res) {
     // Define the path to the file in the public directory
